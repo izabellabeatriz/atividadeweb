@@ -1,0 +1,241 @@
+main{
+    display: block ;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+  
+  }
+  body{
+    background-color: #457b9d;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1d3557;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    
+  }
+  
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px #e63946;
+  }
+  
+  .input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+  }
+  
+  .input label {
+    font: bold 1.5rem serif;
+  }
+  
+  button{
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    background: #1d3557;
+    color: #a8dadc ;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    box-shadow: 0px 0px 10px #1d3557;
+    background: #457b9d ;
+    color: #1d3557;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Limpar formatações Padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: OCR A Std, monospace;
+  background: #353535;
+}
+/* -------------------------------------------------------------------------------*/ 
+/* LAYOUT */
+#area-cabecalho {
+  background: rgba(0, 255, 191, 0.568);
+  padding: 15px;
+  text-align: center;
+}
+#area-logo {    
+  padding: 10px;
+  color: #ccc;
+  font-family: fantasy;
+}
+#area-menu {
+  padding: 10px;
+  color: #ccc;
+}
+#area-principal {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+
+#area-lateral {
+  width: 240px;
+  float: right;
+}
+.postagem { 
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #F3EFF5;
+  text-align: bold;
+  /*font-family:'Trebuchet MS';*/
+  font-weight: bold;
+  
+}
+.postagem-lateral{
+  /*background: white;*/
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 8px;
+  border-bottom: 5px dotted #1c1c1c;
+  color: white;
+}
+.conteudo-lateral{
+  color: white;
+}
+#rodape{
+  clear: both;
+  color: black;
+  background: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font: italic;
+  font-family: sans-serif;
+}
+.separador{
+  border-top: 5px dashed #1c1c1c;
+}
+/* -------------------------------------------------------------------------------*/ 
+/* FORMATAÇÃO MENU*/
+a {
+  text-decoration: none;
+}
+a:link, a:visited{
+  color: #c42700;
+  /*font-family: sans-serif;*/
+}
+a:hover{
+  text-decoration: underline;
+}
+#area-cabecalho a:link,#area-cabecalho a:visited{
+  color: #D8E4FF;
+  padding: 8px 12px;
+}
+.conteudo-lateral a:link,.conteudo-lateral a:visited{
+  color: #ffffff;
+  padding: 8px 12px;
+}
+#area-cabecalho a:hover{
+  color:#272932;
+  background: #31E981 ;
+  text-decoration: none;  
+}
+/* -------------------------------------------------------------------------------*/ 
+/* FORMATAÇÃO EM GERAL*/
+h1 {
+  color: #D8E4FF;
+  font-size: 2.5em;
+}
+h2 {
+  color:#17181d;
+  /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+}
+h3 {
+  color: #31E981;
+  background: #1c1c1c;
+  padding: 5px;
+   
+}
+.branco{
+  color: #31E981;
+}
+.data-post{
+  font-size: 0.8em;
+  border-bottom: 1.5px solid #272932;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+/*-----------------------------------*/
+#fixa1{
+  position: fixed;
+  top: 360px ;   
+  width: 350px;
+}
+#fixa2{
+  position: fixed;
+  top: 155px ;   
+  width: 350px;
+      
+}
+.destaque{
+  text-align: center;
+  font-family: fantasy;
+}
